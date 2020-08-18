@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Vení a Domus Arquitectura y convirtamos tus ideas en Proyectos">
+	<meta name="keywords" content="Domus, Arquitectura, Sáenz Peña, Chaco, Proyectos">
+	<title>Domus Arq | Desde Chaco para todo el mundo</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Roboto+Mono&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+	<!-- Logo del sitio y menú -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+			<a class="navbar-brand" href="index.html"><img class="header__logo" src="img/logo-domus.jpg" alt="Domus Arquitectura"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+			</button>
+	  
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-info">Inicio</button><span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="servicios.html"><button type="button" class="btn btn-outline-info">Servicios</button></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="proyectos.html"><button type="button" class="btn btn-outline-info">Proyectos</button></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="nosotros.html"><button type="button" class="btn btn-outline-info">Socios</button></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="contacto.html"><button type="button" class="btn btn-outline-info active">Contacto</button></a>
+				</li>
+			  </ul>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Cuerpo del Sitio -->
+	<main>
+		<section>
+			<div class="container main__intro">
+				<div class="main__intro__titulo"><h1>Nuestra Oficina</h1></div>
+					<p class="main__intro__texto">"Los arquitectos no inventan nada, solo transforman la realidad" - (Alvaro Siza).</p>
+					<p class="lead">Lo esperamos en nuestras oficinas para tomar un café y charlar un poco.</p>
+					<p class="lead">Ubicados en Mariano Moreno 1530 en Sáenz Peña (Chaco). Horarios: 9 a 12 hs y 16 a 20 hs pm. </p>
+			</div>
+			<div class="seccion__flex">
+				<div class="seccion__contacto">
+					<h3>Escribinos</h3>
+					<form class="form" action="">
+						<label for="nombre">Nombre</label>
+						<input class="form__input" type="text" name="nombre" id="nombre">
+
+						<label for="email">Email</label>
+						<input class="form__input" type="email" name="email" id="email">
+
+						<label for="consulta">Tipo de Consulta</label>
+							<select class="form__input__select" name="consulta" id="consulta">
+								<option value="">...</option>
+								<option value="proyecto">Proyecto</option>
+								<option value="direccion">Dirección</option>
+								<option value="construccion">Construcción</option>
+								<option value="refaccion">Refacción</option>
+								<option value="reunion">Reunión</option>
+								<option value="otro">Otro</option>
+							</select>
+
+						<label for="mensaje">Mensaje</label>
+						<textarea class="form__textarea" name="mensaje" id="mensaje" placeholder="Mensaje..."></textarea>
+
+						<input class="form__input" type="reset" name="limpiar" value="Limpiar">
+						<input class="form__input" type="submit" name="enviar" value="Enviar">
+					</form>
+				</div>	
+				<div class="contacto">
+					<h3>Visitanos</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14247.858679853553!2d-60.4374865!3d-26.7773961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf08e684f7ecd1f98!2sDomus%20Arquitectura!5e0!3m2!1ses-419!2sar!4v1594146013656!5m2!1ses-419!2sar" width="420" height="450" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>	
+		</section>
+	</main>
+
+	<!-- Pie del sitio -->
+	<footer class="footer">
+		<div><strong><h5>Domus Arquitectura</h5></strong></div>
+		<div><address><span class="footer__datos--dir">M. Moreno 1530 - Sáenz Peña - Chaco</span></address></div>
+		<div><span class="footer__datos--tel">364-4426302</span> - domus@domus.arq - <span class="footer__datos--rrss">Instagram - Twitter</span></div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

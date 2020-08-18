@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* Colores */
+/* Tipografías */
+/* Estilos Generales */
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif; }
+
+h1 {
+  color: #333333;
+  font-family: "Roboto Mono", monospace; }
+
+h2 {
+  color: #22738C;
+  font-family: "Roboto Mono", monospace; }
+
+h3 {
+  color: #22738C;
+  font-family: "Heebo", sans-serif;
+  animation-duration: 4s;
+  animation-name: efectoTitulos; }
+
+@keyframes efectoTitulos {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* Header General */
+.header__logo {
+  width: 200px; }
+
+/* Intro General */
+.main__intro {
+  padding: 20px;
+  margin-top: 130px; }
+  .main__intro .main__intro__titulo::first-letter {
+    font-size: 3rem;
+    color: #666666; }
+  .main__intro .main__intro__texto {
+    font-weight: bold;
+    line-height: 3; }
+
+/* Bloque Flex General */
+.seccion__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .seccion__flex .seccion__flex__proyecto {
+    width: 250px;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px; }
+  .seccion__flex .seccion__flex__img {
+    width: 200px;
+    margin-bottom: 15px; }
+
+/* Nosotros General */
+.card {
+  width: 250px; }
+
+/* Header Home */
+.header__intro {
+  height: 700px;
+  padding: 200px 20px 0 20px;
+  margin-top: 100px;
+  background-image: url("../img/fondo-intro.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center; }
+  .header__intro .header__intro__titulo {
+    font-size: 50px;
+    background-color: white; }
+  .header__intro .header__intro__boton {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+    font-family: "Roboto Mono", monospace;
+    background-color: white;
+    border-radius: 5px; }
+
+/* Servicios Home */
+.seccion__servicios {
+  height: 100%;
+  padding: 100px 20px 100px 20px;
+  text-align: center; }
+
+/* Proyectos Home */
+.seccion__proyectos {
+  height: 630px;
+  padding: 80px 20px 0 20px;
+  background-color: #dae1e7;
+  text-align: center;
+  background-image: linear-gradient(#dae1e7, white); }
+  .seccion__proyectos .grid__proyectos {
+    display: grid;
+    width: 100%;
+    height: 430px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    grid-gap: 5px;
+    justify-content: stretch; }
+  .seccion__proyectos .grid__proyecto__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.7; }
+  .seccion__proyectos .grid__proyecto__img:hover {
+    opacity: 1;
+    transform: translate(2px, 2px); }
+  .seccion__proyectos .grid__proyecto__img__vertical1 {
+    grid-row: 1 / 3; }
+  .seccion__proyectos .grid__proyecto__img__vertical2 {
+    grid-row: 2 / 4; }
+  .seccion__proyectos .grid__proyecto__img__horizontal {
+    grid-column: 3 / 5; }
+
+/* Contacto */
+.seccion__contacto {
+  width: 450px;
+  padding: 20px; }
+
+.form {
+  width: 420px;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #ddd; }
+  .form .form__estilos__bordes, .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input__select, .form .form__textarea {
+    border: 1px solid #333333;
+    border-radius: 3px;
+    margin: 6px 0; }
+  .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input__select {
+    width: 380px; }
+  .form .form__textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    display: block; }
+  .form .form__input[type="submit"], .form .form__input[type="reset"] {
+    width: 40%;
+    height: 35px;
+    border: 1px solid #22738C;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #22738C;
+    margin: 10px 0; }
+  .form .form__input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #22738C; }
+
+/* Footer */
+.footer {
+  height: 190px;
+  background-image: url("../img/fondo-footer.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: "Heebo", sans-serif;
+  color: white;
+  text-align: center;
+  padding: 40px 0 0 0;
+  margin-top: 100px;
+  opacity: 0.8; }
+
+.footer__datos--dir {
+  color: lightgrey; }
+
+.footer__datos--tel {
+  color: black; }
+
+.footer__datos--rrss {
+  color: #17a2b8; }
