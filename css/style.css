@@ -17,24 +17,17 @@ h2 {
 
 h3 {
   color: #22738C;
-  font-family: "Heebo", sans-serif;
-  animation-duration: 4s;
-  animation-name: efectoTitulos; }
-
-@keyframes efectoTitulos {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
+  font-family: "Heebo", sans-serif; }
 
 /* Header General */
 .header__logo {
-  width: 200px; }
+  width: 200px;
+  margin-top: 10px; }
 
 /* Intro General */
 .main__intro {
   padding: 20px;
-  margin-top: 130px; }
+  margin-top: 150px; }
   .main__intro .main__intro__titulo::first-letter {
     font-size: 3rem;
     color: #666666; }
@@ -54,7 +47,7 @@ h3 {
     height: auto;
     border: 1px solid grey;
     border-radius: 5px;
-    margin: 10px;
+    margin: 30px;
     padding: 20px; }
   .seccion__flex .seccion__flex__img {
     width: 200px;
@@ -157,16 +150,14 @@ h3 {
 
 /* Footer */
 .footer {
-  height: 190px;
-  background-image: url("../img/fondo-footer.jpg");
-  background-position: center;
-  background-size: cover;
   font-family: "Heebo", sans-serif;
-  color: white;
   text-align: center;
-  padding: 40px 0 0 0;
-  margin-top: 100px;
-  opacity: 0.8; }
+  margin-top: 80px; }
+  .footer .footer__img {
+    width: 90px;
+    filter: grayscale(80%); }
+  .footer .footer__img:hover {
+    filter: none; }
 
 .footer__datos--dir {
   color: lightgrey; }

@@ -18,7 +18,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
 			</button>
 	  
-			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<div class="collapse navbar-collapse pt-2" id="navbarTogglerDemo02">
 			  <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 				<li class="nav-item">
 				  <a class="nav-link" href="index.html"><button type="button" class="btn btn-outline-info active">Inicio</button><span class="sr-only">(current)</span></a>
@@ -119,7 +119,7 @@
 			</div>
 			<div class="row">
 				<div class="card-deck mx-auto">
-					<div class="card text-center">
+					<div class="card text-center shadow p-2 m-5 bg-white rounded">
 						<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
 						<div class="card-body">
 							<h4 class="card-title">Ruiz Enrique</h4>
@@ -127,7 +127,7 @@
 							<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-ruiz">Vista Rápida</button>
 						</div>
 					</div>
-					<div class="card text-center">
+					<div class="card text-center shadow p-2 m-5 bg-white rounded">
 						<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
 						<div class="card-body">
 							<h4 class="card-title">Fantín Marcelo</h4>
@@ -183,10 +183,36 @@
 	</main>
 	
 	<!-- Pie del Sitio -->
-	<footer class="footer">
-		<div><strong><h5>Domus Arquitectura</h5></strong></div>
-		<div><address><span class="footer__datos--dir">M. Moreno 1530 - Sáenz Peña - Chaco</span></address></div>
-		<div><span class="footer__datos--tel">364-4426302</span> - domus@domus.arq - <span class="footer__datos--rrss">Instagram - Twitter</span></div>
+	<footer class="footer bg-dark text-muted">
+		<div class="container">
+			<div class="row py-5">
+			  <div class="col-md-4">
+				<div>
+				  <a href="index.html"><img src="img/logo-footer.jpg" class="rounded mx-auto img-thumbnail footer__img" alt="domus arquitectura"></a>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<p class="font-weight-bold text-white"><svg width="2em" height="1em" viewBox="0 0 16 16" class="bi bi-geo" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path d="M11 4a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+				  <path d="M7.5 4h1v9a.5.5 0 0 1-1 0V4z"/>
+				  <path fill-rule="evenodd" d="M6.489 12.095a.5.5 0 0 1-.383.594c-.565.123-1.003.292-1.286.472-.302.192-.32.321-.32.339 0 .013.005.085.146.21.14.124.372.26.701.382.655.246 1.593.408 2.653.408s1.998-.162 2.653-.408c.329-.123.56-.258.701-.382.14-.125.146-.197.146-.21 0-.018-.018-.147-.32-.339-.283-.18-.721-.35-1.286-.472a.5.5 0 1 1 .212-.977c.63.137 1.193.34 1.61.606.4.253.784.645.784 1.182 0 .402-.219.724-.483.958-.264.235-.618.423-1.013.57-.793.298-1.855.472-3.004.472s-2.21-.174-3.004-.471c-.395-.148-.749-.336-1.013-.571-.264-.234-.483-.556-.483-.958 0-.537.384-.929.783-1.182.418-.266.98-.47 1.611-.606a.5.5 0 0 1 .595.383z"/>
+				</svg> Mariano Moreno 1530</p>
+				<p>Pcia. Roque Sáenz Peña (Chaco)</p>
+				<p class="text-white"><svg width="2em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path fill-rule="evenodd" d="M3.925 1.745a.636.636 0 0 0-.951-.059l-.97.97c-.453.453-.62 1.095-.421 1.658A16.47 16.47 0 0 0 5.49 10.51a16.471 16.471 0 0 0 6.196 3.907c.563.198 1.205.032 1.658-.421l.97-.97a.636.636 0 0 0-.06-.951l-2.162-1.682a.636.636 0 0 0-.544-.115l-2.052.513a1.636 1.636 0 0 1-1.554-.43L5.64 8.058a1.636 1.636 0 0 1-.43-1.554l.513-2.052a.636.636 0 0 0-.115-.544L3.925 1.745zM2.267.98a1.636 1.636 0 0 1 2.448.153l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+				</svg> 364-4426302</p>
+			  </div>
+			  <div class="col-md-4">
+				<p class="font-weight-bold text-white"><svg width="2em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				  <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+				</svg> Agendar reunión</p>
+				<p class="footer__mail"><a class="text-muted" href="mailto:contacto@domusarq.com.ar">contacto@domusarq.com.ar</a></p>
+			  </div>
+			</div>
+			<div class="row py-3 border-top">
+			  <p class="font-weight-lighter mx-auto">Domus Arquitectura - Copyright © 2020</p>
+			</div>
+		</div>
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
