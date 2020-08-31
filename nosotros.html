@@ -44,32 +44,86 @@
 	<main>
 		<section>
 			<div class="container main__intro">
-			<div class="main__intro__titulo"><h1>Arquitectos / Socios</h1></div>
-				<p class="main__intro__texto">"La arquitectura es una expresión de valores. La forma en que construimos es un reflejo de nuestra forma de vivir" - (Norman Foster).</p>
-				<p class="lead">Años de experiencia avalan nuestros conocimientos, dedicación, ganas y entusiasmo que entregamos en cada proyecto que llevamos adelante.</p>
+				<div class="main__intro__titulo mb-5">
+					<h1>Arquitectos / Socios</h1>
+				</div>
+				<p class="lead">Creemos en el <mark>trabajo en equipo como generador de valor</mark>, entendiendo la creatividad como la capacidad de dar la mejor respuesta al diseño y al contexto de cada proyecto, resultado del diálogo enriquecedor entre todos los agentes de un equipo.</p>
 			</div>
 		
-			<div class="container pt-3">	
-			<div class="row">
-				<div class="card-deck mx-auto">
-					<div class="card text-center shadow p-2 m-5 bg-white rounded">
-						<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
-						<div class="card-body">
-							<h4 class="card-title">Ruiz Enrique</h4>
-							<p class="card-text">Arquitecto - MP: 12345</p>
-							<a href="#" class="btn btn-light">Ver Más</a>
+			<div class="container">	
+				<div class="row">
+					<div class="card-deck mx-auto">
+						<div class="card text-center shadow p-2 m-5 bg-white rounded">
+							<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
+							<div class="card-body">
+								<h4 class="card-title">Ruiz Enrique</h4>
+								<p class="card-text">Arquitecto - MP: 12345</p>
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-ruiz">Vista Rápida</button>
+							</div>
 						</div>
-					</div>
-					<div class="card text-center shadow p-2 m-5 bg-white rounded">
-						<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
-						<div class="card-body">
-							<h4 class="card-title">Fantín Marcelo</h4>
-							<p class="card-text">Arquitecto - MP: 12345</p>
-							<a href="#" class="btn btn-light">Ver Más</a>
+						<div class="card text-center shadow p-2 m-5 bg-white rounded">
+							<img class="card-img-top" src="img/avatar-socios.png" alt="Card image">
+							<div class="card-body">
+								<h4 class="card-title">Fantín Marcelo</h4>
+								<p class="card-text">Arquitecto - MP: 12345</p>
+								<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-fantin">Vista Rápida</button>
+							</div>
+						</div>
+	
+						<!-- Modal Enrique -->
+						<div class="modal fade" id="modal-ruiz" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel">Ruiz Enrique (Arquitecto)</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										Arquitecto egresado de UNNE Resistencia - Chaco
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+										<a class="nav-link" href="nosotros.html"><button type="button" class="btn btn-info">Contactar</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+	
+						<!-- Modal Marcelo -->
+						<div class="modal fade" id="modal-fantin" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="staticBackdropLabel">Fantín Marcelo (Arquitecto)</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										Arquitecto egresado de UNNE Resistencia - Chaco
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+										<a class="nav-link" href="nosotros.html"><button type="button" class="btn btn-info">Contactar</button></a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="container pt-3">
+				<div class="row">
+					<div class="card-body">
+						<blockquote class="blockquote mb-0">
+						  <p>"La arquitectura es una expresión de valores. La forma en que construimos es un reflejo de nuestra forma de vivir"</p>
+						  <footer class="blockquote-footer"><cite>Arq. Norman Foster</cite></footer>
+						</blockquote>
+					  </div>
+				</div>
 			</div>
 		</section>
 	</main>
@@ -79,7 +133,7 @@
 		<div class="container">
 			<div class="row py-5">
 			  <div class="col-md-4">
-				<div>
+				<div class="pb-4">
 				  <a href="index.html"><img src="img/logo-footer.jpg" class="rounded mx-auto img-thumbnail footer__img" alt="domus arquitectura"></a>
 				</div>
 			  </div>
