@@ -15,7 +15,7 @@ h2 {
   color: #22738C;
   font-family: "Roboto Mono", monospace; }
 
-h3 {
+h3, h5 {
   color: #22738C;
   font-family: "Heebo", sans-serif; }
 
@@ -116,9 +116,7 @@ h3 {
 .seccion__proyectos {
   height: 630px;
   padding: 80px 20px 0 20px;
-  background-color: #dae1e7;
-  text-align: center;
-  background-image: linear-gradient(#dae1e7, white); }
+  text-align: center; }
   .seccion__proyectos .grid__proyectos {
     display: grid;
     width: 100%;
@@ -150,19 +148,23 @@ h3 {
 
 .form {
   width: 420px;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
+  font-weight: bold;
+  border: 1px solid #22738C;
   border-radius: 10px;
   margin: auto;
-  background-color: #ddd; }
-  .form .form__estilos__bordes, .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input__select, .form .form__textarea {
+  color: white; }
+  .form .form__estilos__bordes, .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input[type="subjet"], .form .form__textarea {
     border: 1px solid #333333;
     border-radius: 3px;
-    margin: 6px 0; }
-  .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input__select {
-    width: 380px; }
+    padding-left: 10px; }
+  .form .form__input[type="text"], .form .form__input[type="email"], .form .form__input[type="subjet"] {
+    width: 100%;
+    height: 50px; }
   .form .form__textarea {
     width: 100%;
     height: 100px;
+    padding-top: 15px;
     resize: none;
     display: block; }
   .form .form__input[type="submit"], .form .form__input[type="reset"] {
@@ -170,7 +172,7 @@ h3 {
     height: 35px;
     border: 1px solid #22738C;
     border-radius: 5px;
-    color: #fff;
+    color: white;
     background-color: #22738C;
     margin: 10px 0; }
   .form .form__input[type="submit"]:hover {
@@ -187,12 +189,3 @@ h3 {
     filter: grayscale(80%); }
   .footer .footer__img:hover {
     filter: none; }
-
-.footer__datos--dir {
-  color: lightgrey; }
-
-.footer__datos--tel {
-  color: black; }
-
-.footer__datos--rrss {
-  color: #17a2b8; }
