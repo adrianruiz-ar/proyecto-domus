@@ -47,7 +47,7 @@ h3, h5 {
   .seccion__flex .seccion__flex__proyecto {
     width: 250px;
     height: auto;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 5px;
     margin: 30px;
     padding: 20px; }
@@ -109,7 +109,7 @@ h3, h5 {
 /* Servicios Home */
 .seccion__servicios {
   height: 100%;
-  padding: 100px 20px 100px 20px;
+  padding: 100px 30px 100px 30px;
   text-align: center; }
 
 /* Proyectos Home */
@@ -175,9 +175,8 @@ h3, h5 {
     color: white;
     background-color: #22738C;
     margin: 10px 0; }
-  .form .form__input[type="submit"]:hover {
-    cursor: pointer;
-    background-color: #22738C; }
+  .form .form__input[type="reset"] {
+    background-color: #17a2b8; }
 
 /* Footer */
 .footer {
