@@ -24,6 +24,12 @@ h3, h5 {
   width: 200px;
   margin-top: 10px; }
 
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    align-items: center; }
+    .navbar-nav .nav-item .btn {
+      width: 150px; } }
+
 /* Intro General */
 .main__intro {
   padding: 20px;
@@ -33,9 +39,6 @@ h3, h5 {
     color: white;
     background-color: #17a2b8;
     padding: 0 10px 0 10px; }
-  .main__intro .main__intro__texto {
-    font-weight: bold;
-    line-height: 3; }
 
 /* Bloque Flex General */
 .seccion__flex {
@@ -53,11 +56,9 @@ h3, h5 {
     padding: 20px; }
   .seccion__flex .seccion__flex__img {
     width: 200px;
-    margin-bottom: 15px; }
-
-/* Nosotros General */
-.card {
-  width: 250px; }
+    height: 180px;
+    margin-bottom: 15px;
+    object-fit: cover; }
 
 /* Header Home */
 .header__intro {
@@ -141,7 +142,11 @@ h3, h5 {
   .seccion__proyectos .grid__proyecto__img__horizontal {
     grid-column: 3 / 5; }
 
-/* Contacto */
+/* Página Nosotros */
+.card {
+  width: 250px; }
+
+/* Página Contacto */
 .seccion__contacto {
   width: 450px;
   padding: 20px; }
@@ -178,7 +183,7 @@ h3, h5 {
   .form .form__input[type="reset"] {
     background-color: #17a2b8; }
 
-/* Footer */
+/* Footer General */
 .footer {
   font-family: "Heebo", sans-serif;
   text-align: center;
