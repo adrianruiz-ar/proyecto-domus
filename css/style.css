@@ -82,7 +82,7 @@ h3, h5 {
     padding: 10px;
     border-radius: 5px;
     background-color: rgba(128, 128, 128, 0.8); }
-  .header__intro .word {
+  .header__intro .header__intro__word {
     background-color: #22738C;
     font-family: "Roboto Mono", monospace;
     font-size: 30px;
@@ -93,7 +93,7 @@ h3, h5 {
     display: inline-block;
     vertical-align: middle;
     position: relative; }
-  .header__intro .word:before {
+  .header__intro .header__intro__word:before {
     content: '';
     background-color: black;
     width: 1px;
@@ -150,7 +150,7 @@ h3, h5 {
     .seccion__proyectos .grid__proyecto__img {
       padding: 5px; } }
 
-/* Página Nosotros */
+/* Página Nosotros / Socios */
 .card {
   width: 250px; }
 
