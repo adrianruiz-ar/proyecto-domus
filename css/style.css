@@ -156,11 +156,11 @@ h3, h5 {
 
 /* Página Contacto */
 .seccion__contacto {
-  width: 450px;
-  padding: 20px; }
+  width: 350px;
+  padding-top: 20px; }
 
 .form {
-  width: 420px;
+  width: 330px;
   padding: 0 20px 20px 20px;
   font-weight: bold;
   border: 1px solid #22738C;
